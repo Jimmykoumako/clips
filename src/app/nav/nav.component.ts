@@ -13,6 +13,6 @@ export class NavComponent {
   openModal($event: MouseEvent) {
     $event.preventDefault();
 
-    this.modal.toggleModal()
+    this.modal.toggleModal('auth')
   }
 }
